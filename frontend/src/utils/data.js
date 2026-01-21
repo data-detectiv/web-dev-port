@@ -135,7 +135,7 @@ export const PROJECTS = [
 export const JOURNEY_STEPS = [
     {
         year: "2023-2027",
-        title: "BSc. Mathematics & Computer Science",
+        title: "BSc. Mathematics",
         company: "Wingate University",
         description: "Relevant Coursework: Data Structures & Algorithms, Web Development, Database Systems, Software Engineering, Object-Oriented Programming, Computer Networks, UI/UX Design Principles",
         icon: GraduationCap,
