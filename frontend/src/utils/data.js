@@ -93,7 +93,7 @@ export const PROJECTS = [
         image: PROJECT_IMG_1,
         tags: ["React", "Tailwind CSS", "Framer Motion", "Node.js"],
         liveUrl: "https://foster-oppong.onrender.com/",
-        githubUrl: "https://github.com/data-detectiv",
+        // githubUrl: "https://github.com/data-detectiv",
         featured: true,
         category: "Portfolio"
     },
@@ -104,7 +104,7 @@ export const PROJECTS = [
         image: PROJECT_IMG_2,
         tags: ["React", "Tailwind CSS", "Responsive Design", "SEO"],
         liveUrl: "https://www.thebrinkglobal.org/",
-        githubUrl: "https://github.com/data-detectiv",
+        // githubUrl: "https://github.com/data-detectiv",
         featured: true,
         category: "Business Website"
     },
@@ -115,7 +115,7 @@ export const PROJECTS = [
         image: PROJECT_IMG_3,
         tags: ["React", "Vite", "Tailwind CSS", "Vercel"],
         liveUrl: "https://royalchildacademy.vercel.app/",
-        githubUrl: "https://github.com/data-detectiv",
+        // githubUrl: "https://github.com/data-detectiv",
         featured: false,
         category: "Education"
     },
@@ -126,7 +126,7 @@ export const PROJECTS = [
         image: PROJECT_IMG_4,
         tags: ["React", "Dashboard", "Authentication", "Charts"],
         liveUrl: "https://mikrobot-dashboard-n5xf.vercel.app/login",
-        githubUrl: "https://github.com/data-detectiv",
+        // githubUrl: "https://github.com/data-detectiv",
         featured: false,
         category: "Web Application"
     },

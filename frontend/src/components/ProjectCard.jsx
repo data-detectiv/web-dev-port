@@ -70,7 +70,7 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
                 <ExternalLink size={16}/>
                 <span>Live Demo</span>
             </motion.a>
-            <motion.a
+            {/* <motion.a
                 href={project.githubUrl}
                 target="_blank"
                 initial={{ y: 20, opacity: 0.5 }}
@@ -80,7 +80,7 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
             >
                 <FiGithub size={16}/>
                 <span>GitHub</span>
-            </motion.a>
+            </motion.a> */}
         </motion.div>
         </div>
 
