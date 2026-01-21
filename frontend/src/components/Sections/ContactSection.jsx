@@ -35,7 +35,8 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     try {
-      const res = await fetch("https://my-portfolio-backend-pq7d.onrender.com/api/contact", {
+      const apiUrl = import.meta.env.VITE_API_URL || "https://web-dev-port-api.vercel.app";
+      const res = await fetch(`${apiUrl}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
