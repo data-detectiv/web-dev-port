@@ -23,6 +23,7 @@ const PROJECT_IMG_1 = "/portfolio.png";
 const PROJECT_IMG_2 = "/brink.png";
 const PROJECT_IMG_3 = "/royal.png";
 const PROJECT_IMG_4 = "/mikrobot.png";
+const PROJECT_IMG_5 = "/aeero.png";
 
 
 export const SKILLS_CATEGORY = [
@@ -129,6 +130,17 @@ export const PROJECTS = [
         // githubUrl: "https://github.com/data-detectiv",
         featured: false,
         category: "Web Application"
+    },
+    {
+        id: 5,
+        title: "Aeero Landing Page",
+        description: "A sleek, modern landing page with clean design and smooth animations. Built with attention to visual aesthetics and user experience, featuring responsive layouts and optimized performance.",
+        image: PROJECT_IMG_5,
+        tags: ["React", "Tailwind CSS", "Landing Page", "Responsive"],
+        liveUrl: "https://mono-landing-six.vercel.app/",
+        // githubUrl: "https://github.com/data-detectiv",
+        featured: true,
+        category: "Landing Page"
     },
 ];
 

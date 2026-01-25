@@ -46,17 +46,16 @@ const ContactSection = () => {
 
       if (!res.ok) throw new Error("Failed to send message");
 
+      // Success - show modal and reset form
+      setShowSuccess(true);
+      setFormData({ name: "", email: "", message: ""});
+      setTimeout(() => setShowSuccess(false), 3000);
+
     } catch (err) {
       console.error(err);
-      setStatus("Something went wrong. Try again.");
+      alert("Something went wrong. Please try again.");
     } finally {
-        setIsSubmitting(false);
-        setShowSuccess(true);
-        setFormData({ name: "", email: "", message: ""});
-
-        // auto hide success modal after 3 secs 
-        setTimeout(() => setShowSuccess(false), 3000);
-
+      setIsSubmitting(false);
     }
 
   };

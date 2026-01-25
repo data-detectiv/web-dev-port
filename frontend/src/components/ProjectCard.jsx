@@ -29,9 +29,10 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
     >
         {/* project image */}
         <div className="relative overflow-hidden">
-            <img 
+            <img
                 src={project.image}
                 alt={project.title}
+                loading="lazy"
                 className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
             />
 
