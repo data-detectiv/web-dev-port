@@ -126,7 +126,7 @@ export const PROJECTS = [
         description: "A comprehensive admin dashboard application with user authentication, data visualization, and real-time updates. Features secure login system, responsive charts, and intuitive user interface for managing robot systems.",
         image: PROJECT_IMG_4,
         tags: ["React", "Dashboard", "Authentication", "Charts"],
-        liveUrl: "https://mikrobot-dashboard-n5xf.vercel.app/login",
+        // liveUrl: "https://mikrobot-dashboard-n5xf.vercel.app/login"
         // githubUrl: "https://github.com/data-detectiv",
         featured: false,
         category: "Web Application"
