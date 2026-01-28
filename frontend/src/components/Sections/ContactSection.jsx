@@ -229,7 +229,7 @@ const ContactSection = () => {
                     </div>
                 </motion.div>
                 {/* availability stats  */}
-                <motion.div
+                {/* <motion.div
                     variants={itemVariants}
                     className={`p-6 rounded-xl border ${isDarkMode ? "bg-green-500/10 border-green-500/20" : "bg-green-50 border-green-200"}`}
                 >
@@ -242,10 +242,10 @@ const ContactSection = () => {
                     <p
                         className={`text-sm ${isDarkMode ? "text-gray-400" : "text-gray-600"}`}
                     >
-                        I'm currently available for freelance web development projects and collaborations
+                        {/* I'm currently available for freelance web development projects and collaborations */}
                     </p>
                 </motion.div>
-        </motion.div>
+        </motion.div> */}
         </div>
 
         {/* button CTA  */}
